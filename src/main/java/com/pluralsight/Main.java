@@ -4,14 +4,15 @@ public class Main {
     public static void main(String[] args) {
         Dice dice = new Dice();
 
-        int roll1 = 0;
-        int roll2 = 0;
         int count_2 = 0;
         int count_4 = 0;
         int count_6 = 0;
         int count_7 = 0;
 
         for (int i = 1; i <= 100; i++){
+            int roll1 = 0;
+            int roll2 = 0;
+
             roll1 = dice.roll();
             roll2 = dice.roll();
             int sum = roll1 + roll2;
