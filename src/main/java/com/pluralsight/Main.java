@@ -31,13 +31,12 @@ public class Main {
                     break;
             }
             System.out.println("Roll "+ i + ": " +  roll1 + " - " + roll2 + " Sum: " + sum );
-            if(i == 100){
-                System.out.println(count_2);
-                System.out.println(count_4);
-                System.out.println(count_6);
-                System.out.println(count_7);
-            }
+
 
         }
+        System.out.println(count_2);
+        System.out.println(count_4);
+        System.out.println(count_6);
+        System.out.println(count_7);
     }
 }
