@@ -11,7 +11,7 @@ public class Main {
         int count_6 = 0;
         int count_7 = 0;
 
-        for (int i = 0; i <= 100; i++){
+        for (int i = 1; i <= 100; i++){
             roll1 = dice.roll();
             roll2 = dice.roll();
             int sum = roll1 + roll2;
