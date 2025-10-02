@@ -28,6 +28,7 @@ public class Main {
                     break;
                 case 7:
                     count_7 += 1;
+                    break;
             }
             System.out.println("Roll "+ i + ": " +  roll1 + " - " + roll2 + " Sum: " + sum );
             if(i == 100){
